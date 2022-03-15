@@ -48,6 +48,8 @@ set(DEQP_VK_IMAGE_SRCS
 	vktImageSampleCompressedTextureTests.hpp
 	vktImageExtendedUsageBitTests.cpp
 	vktImageExtendedUsageBitTests.cpp
+	vktImageSampleCountsTests.cpp
+	vktImageSampleCountsTests.hpp
 	)
 
 set(DEQP_VK_IMAGE_LIBS

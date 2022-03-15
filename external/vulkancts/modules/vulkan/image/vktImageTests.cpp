@@ -40,6 +40,7 @@
 #include "vktImageDepthStencilDescriptorTests.hpp"
 #include "vktImageSampleCompressedTextureTests.hpp"
 #include "vktImageExtendedUsageBitTests.hpp"
+#include "vktImageSampleCountsTests.hpp"
 
 namespace vkt
 {
@@ -76,6 +77,7 @@ void createChildren (tcu::TestCaseGroup* imageTests)
 	imageTests->addChild(createImageDepthStencilDescriptorTests(testCtx));
 	imageTests->addChild(createImageSampleDrawnTextureTests(testCtx));
 	imageTests->addChild(createImageExtendedUsageBitTests(testCtx));
+	imageTests->addChild(createImageSampleCountsTests(testCtx));
 }
 
 } // anonymous
